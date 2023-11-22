@@ -7,19 +7,25 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
-.center-container
-{
+.image-container {
   text-align: center;
 }
 
-.center-containter img
-{
+.image-item {
+  margin-bottom: 20px; /* Dodatkowy odstęp między obrazami */
+}
+
+.image-item h2 {
+  font-size: 18px; /* Rozmiar nagłówka */
+}
+
+.image-item img {
   max-width: 100%;
   max-height: 100%;
   display: block;
